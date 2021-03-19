@@ -2,7 +2,7 @@
 body {
     font-family: Tahoma, Geneva, sans-serif;
     background: #def2ff;
-    padding: 0;
+    padding-left: 20px;
     margin: 0;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -70,8 +70,9 @@ header h2{
 /*New releases*/
 
 #newreleases h1{
-    margin: 20px, 20px, 20px, 0px;
+    margin: 40px, 40px, 40px, 0px;
     font-weight: bolder;
+
 }
 
 #newreleases img{
@@ -83,9 +84,10 @@ header h2{
  
  background-color: rgba(252, 243, 243, 0.7);
  float: left;
- position:relative;
+ position:static;
  width: 300px;
- Margin: 0px 5px 10px 10px;
+ /* height: 300px; */
+ Margin: 5px 5px 15px 10px;
  padding: 10px;
  border: #ccc solid 1px;
  border-radius: 0.6em;
@@ -100,14 +102,14 @@ float: left;
 /*Popular titles*/
 
 #ptil{
-    width: 500px;
+    width: 450px;
     float: right;
-    position: static;
+    position: relative;
     display: block;
-    margin: 0px;
-    margin-left: 0px;
-    margin: 10px 0px 15px 10px;
-    padding: 10px 0px 15px 10px;
+    /* margin: 10px 0px 15px 10px;
+    padding: 10px 0px 15px 10px; */
+    Margin: 0px 5px 10px 10px;
+    padding: 10px;
 }
 
 
@@ -131,4 +133,8 @@ footer{
     text-align: left;
     padding-top: 600px;
     margin-bottom: 100px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
 }
